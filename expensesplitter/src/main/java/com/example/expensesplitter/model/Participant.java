@@ -2,22 +2,22 @@ package com.example.expensesplitter.model;
 
 public class Participant {
     private String name;
-    private double ammountPaid;
+    private double amountPaid;
 
-    public Participant(String name, double ammountPaid){
+    public Participant(String name, double amountPaid){
         this.name = name;
-        this.ammountPaid = ammountPaid;
+        this.amountPaid = amountPaid;
     }
 
     public String getName() {
         return name;
     }
 
-    public double getAmmountPaid(){
-        return ammountPaid;
+    public double getAmountPaid(){
+        return amountPaid;
     }
 
     public void setAmmountPaid() {
-        this.ammountPaid = ammountPaid;
+        this.amountPaid = amountPaid;
     }
 }

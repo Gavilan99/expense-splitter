@@ -4,7 +4,7 @@ public class Participant {
     private String name;
     private double amountPaid;
 
-    public Participant(String name, double amountPaid){
+    public Participant(String name, double amountPaid) {
         this.name = name;
         this.amountPaid = amountPaid;
     }
@@ -13,11 +13,11 @@ public class Participant {
         return name;
     }
 
-    public double getAmountPaid(){
+    public double getAmountPaid() {
         return amountPaid;
     }
 
-    public void setAmmountPaid() {
+    public void setAmmountPaid(double amountPaid) {
         this.amountPaid = amountPaid;
     }
 }
